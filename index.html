@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from validthemes.net/site-template/avrix/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Sep 2025 07:18:37 GMT -->
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sabari Studios - Creative Studio">
+
+    <!-- ========== Page Title ========== -->
+    <title>Sabari Studios - Creative Studio</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"> -->
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/flaticon-set.css" rel="stylesheet">
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/validnavs.css" rel="stylesheet">
+    <link href="assets/css/helper.css" rel="stylesheet">
+    <link href="assets/css/unit-test.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- ========== End Stylesheet ========== -->
+    
+    <!-- ========== Custom Font for Logo ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&amp;display=swap" rel="stylesheet">
+
+    <!-- ========== Custom CSS for Text Logo ========== -->
+    <style>
+        .logo-text-wrapper {
+            line-height: 1;
+        }
+        .logo-main-text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+            display: block;
+            text-transform: uppercase;
+        }
+        .logo-sub-text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 9px;
+            font-weight: 500;
+            color: #C0A75E; /* Muted Gold Color from Image */
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            display: block;
+            margin-top: 1px;
+        }
+        .f-item .logo-text-wrapper {
+            margin-bottom: 25px; /* Add space below footer logo */
+        }
+
+        /* ========= STYLES FOR KEY FEATURES SECTION START ========= */
+        .ftco-section {
+            padding: 6em 0;
+            position: relative;
+        }
+
+        .heading-section h2 {
+            font-size: 34px;
+            font-weight: 700;
+            color: #fff; /* White text for dark theme */
+        }
+
+        .work-category {
+            padding: 10px 0;
+            margin: 0 0 30px 0;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            justify-content: flex-start; /* Align tabs to the start */
+            -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+            scrollbar-width: none; /* Hide scrollbar for Firefox */
+        }
+        .work-category::-webkit-scrollbar {
+            display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+        }
+        .work-category li {
+            list-style: none;
+            margin: 0 10px; /* Adjusted spacing */
+            flex-shrink: 0; /* Prevent tabs from shrinking */
+        }
+        .work-category li a {
+            color: #ccc; /* Lighter grey for inactive tabs */
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            background: #2a2a2a; /* Dark background for tabs */
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        .work-category li.active a,
+        .work-category li a:hover {
+            background: #C0A75E; /* Gold accent color */
+            color: #121212; /* Dark text on active tab */
+        }
+
+        .work-content {
+            padding: 2em 0;
+        }
+        .work-content .text h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .work-content .text p {
+            color: #a9a9a9; /* Light grey for paragraph text */
+            line-height: 1.8;
+        }
+        .work-content img {
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        /* VFX media and gallery */
+        .vfx-media video {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        /* VP media and gallery */
+        .vp-media video {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        /* Interior media and gallery */
+        .id-media video {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        /* Digital Marketing media and gallery */
+        .dm-media video {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        /* Unified Scrollable Gallery for most sections */
+        .media-gallery-scrollable {
+            display: flex;
+            gap: 15px; /* Space between images */
+            overflow-x: auto;
+            padding: 10px 0;
+            -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+            scrollbar-width: none; /* Hide scrollbar for Firefox */
+        }
+        .media-gallery-scrollable::-webkit-scrollbar { display: none; } /* Hide for Chrome/Safari */
+        .media-gallery-scrollable img {
+            flex: 0 0 200px; /* Medium, consistent width for images */
+            width: 200px;
+            height: 150px; /* Medium height */
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+
+        /* Grid Gallery for Digital Marketing */
+        .media-gallery {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        @media (min-width: 992px) {
+            .media-gallery { grid-template-columns: repeat(4, 1fr); }
+        }
+        .media-gallery img {
+            width: 100%;
+            height: 150px; /* Medium height */
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+        /* ========= STYLES FOR KEY FEATURES SECTION END ========= */
+
+        @media (max-width: 767px) {
+            .work-content .row {
+                flex-direction: column;
+            }
+            .work-content .col-md-6 {
+                width: 100%;
+            }
+            .work-content img {
+                margin-bottom: 20px;
+            }
+        }
+        
+        /* ========= STYLES FOR VIDEO BANNER START ========= */
+        .banner-style-one {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        #banner-video-slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .banner-style-one .banner-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+        }
+
+        .banner-style-one .banner-video.active {
+            opacity: 1;
+        }
+
+        .banner-style-one .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2; /* Over the video */
+            background-color: rgba(0, 0, 0, 0.3); /* Add a slight dark tint for text readability */
+        }
+
+        .banner-style-one .container {
+            position: relative;
+            z-index: 3; /* Over the overlay */
+            height: 100%;
+            display: flex;
+            align-items: center; /* Vertically center the content */
+        }
+        
+        /* Ensure header stays on top */
+        header.navbar {
+            z-index: 9999 !important;
+        }
+        /* ========= STYLES FOR VIDEO BANNER END ========= */
+    </style>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+</head>
+
+<body class="bg-dark">
+
+    <!-- Start Preloader 
+    ============================================= -->
+    <!-- <div id="preloader">
+        <div id="avrix-preloader" class="avrix-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- End Preloader -->
+
+    <!-- Header 
+    ============================================= -->
+    <header>
+        <!-- Start Navigation -->
+        <nav class="navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed no-background">
+
+
+            <div class="container d-flex justify-content-between align-items-center">            
+                
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Text Logo Start -->
+                        <div class="logo-text-wrapper">
+                            <span class="logo-main-text">SABARI</span>
+                            <span class="logo-sub-text">STUDIOS</span>
+                        </div>
+                        <!-- Text Logo End -->
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    
+                    
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-times"></i>
+                    </button>
+                    
+                    <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Show Reel</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+                <div class="attr-right">
+                    <!-- Start Atribute Navigation -->
+                    <div class="attr-nav flex">
+                        <ul>
+                            <li class="side-menu">
+                                <a href="#">
+                                    <span class="bar-1"></span>
+                                    <span class="bar-2"></span>
+                                    <span class="bar-3"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Atribute Navigation -->
+
+
+                    <!-- Start Side Menu -->
+                    <div class="side">
+                        <a href="#" class="close-side"><i class="fas fa-times"></i></a>
+                        <div class="widget">
+                            <div class="logo">
+                                <!-- Side Menu Logo -->
+                                <div class="logo-text-wrapper">
+                                    <span class="logo-main-text">SABARI</span>
+                                    <span class="logo-sub-text">STUDIOS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <p>
+                                Transforming imagination into stunning visuals and impactful digital solutions.
+                            </p>
+                        </div>
+                        <div class="widget address">
+                            <div>
+                                <ul>
+                                    <li>
+                                        <div class="content">
+                                            <p>Address</p> 
+                                            <strong>530, Road No. 86, Deen Dayal Nagar, Banjara Hills, Hyderabad, Telangana 500096, India</strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content">
+                                            <p>Email</p> 
+                                            <strong>sabaristudios959@gmail.com</strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content">
+                                            <p>Contact</p> 
+                                            <strong>+91 6300685106</strong>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget newsletter">
+                            <h4 class="title">Get Subscribed!</h4>
+                            <form action="#">
+                                <div class="input-group stylish-input-group">
+                                    <input type="email" placeholder="Enter your e-mail" class="form-control" name="email">
+                                    <span class="input-group-addon">
+                                        <button type="submit">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </button>  
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="widget social">
+                            <ul class="link">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- End Side Menu -->
+
+                </div>
+                <!-- Main Nav -->
+
+            </div>  
+            <!-- Overlay screen for menu -->
+            <div class="overlay-screen"></div>
+            <!-- End Overlay screen for menu --> 
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Header -->
+
+    <div class="viewport">
+        <!-- Start Banner 
+        ============================================= -->
+        <div class="banner-style-one">
+            <!-- Background Videos -->
+            <div id="banner-video-slider">
+                <video autoplay loop muted playsinline class="banner-video active">
+                    <source src="assets/img/vp/virtualproduction.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video autoplay loop muted playsinline class="banner-video">
+                    <source src="assets/img/vfx/vfx.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video autoplay loop muted playsinline class="banner-video">
+                    <source src="assets/img/vfx/vfx1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video autoplay loop muted playsinline class="banner-video">
+                    <source src="assets/img/interiordesign/Interior_House.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video autoplay loop muted playsinline class="banner-video">
+                    <source src="assets/img/digitalmarketing/dgv1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+    
+            <!-- Video Overlay & Content -->
+            <div class="video-overlay" style="background-image: url(assets/img/shape/1.png);"></div>
+            
+            <div class="container">
+                <div class="row align-center">
+                    <div class="col-lg-8 banner-one-item">
+                        <h4>Sabari Creative Studios</h4>
+                        <h2>High-Quality <strong>Animation & VFX</strong></h2>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1 banner-one-item text-center">
+                        <div class="curve-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
+                                <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
+                                <text><textPath href="#textPath">One-Stop Creative Studio</textPath></text>
+                            </svg>
+                            <a href="projects.html" class="popup-youtube"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Banner -->
+
+    <!-- Start Background Move 
+    ============================================= -->
+    <div class="banner-animation-zoom">
+        <div class="animation-zoom-banner" id="js-hero" style="background-image: url(assets/img/banner/1.jpg);"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="experience-box">
+                        <div class="inner-content">
+                            <h2>We are <strong>Sabari</strong> Creative Studios</h2>
+                            <p>
+                                We transform imagination into stunning visuals and impactful digital solutions instantly.
+                            </p>
+                            <a class="btn-animation" href="services.html"><i class="fas fa-arrow-right"></i> <span>Our Services</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Background Move -->
+
+    <!-- Start Services
+    ============================================= -->
+    <div class="creative-services-area overflow-hidden default-padding">
+
+        <div class="bg-static">
+            <img class="bg-move" src="assets/img/shape/5.png" alt="Image Not Found">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="site-heading">
+                        <h4 class="sub-title">Services We Offer</h4>
+                        <h2 class="title">Our Core Creative Services</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-stage">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="services-item-one-items">
+                        <!-- Navigation -->
+                        <div class="services-nav">
+                            <div class="nav-items">
+                                <div class="services-button-prev"></div>
+                                <div class="services-button-next"></div>
+                            </div>
+                        </div>
+                        <div class="services-carousel swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+
+                                <!-- Single Item -->
+                                <div class="swiper-slide">
+                                    <div class="cteative-service-item">
+                                        <img src="assets/img/icon/1.png" alt="Icon">
+                                        <h4><a href="services.html">Virtual Production</a></h4>
+                                        <p>
+                                            Merging live-action footage with digital assets in real-time on a virtual set.
+                                        </p>
+                                        <span>01</span>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="swiper-slide">
+                                    <div class="cteative-service-item">
+                                        <img src="assets/img/icon/2.png" alt="Icon">
+                                        <h4><a href="services.html">Animation & VFX</a></h4>
+                                        <p>
+                                            Bringing imagination to life with stunning visual effects and high-quality 3D animation.
+                                        </p>
+                                        <span>02</span>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="swiper-slide">
+                                    <div class="cteative-service-item">
+                                        <img src="assets/img/icon/3.png" alt="Icon">
+                                        <h4><a href="services.html">Digital Marketing</a></h4>
+                                        <p>
+                                            Elevating your brand's reach with targeted campaigns and engaging creative content.
+                                        </p>
+                                        <span>03</span>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="swiper-slide">
+                                    <div class="cteative-service-item">
+                                        <img src="assets/img/icon/4.png" alt="Icon">
+                                        <h4><a href="services.html">3D Visualization</a></h4>
+                                        <p>
+                                            Creating photorealistic renderings and immersive models for architecture and products.
+                                        </p>
+                                        <span>04</span>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+
+    <!-- Start About 
+    ============================================= -->
+    <div class="about-area default-padding-bottom relative">
+        <div class="blur-bg-theme"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-6">
+                    <div class="about-style-one-thumb animate" data-animate="fadeInUp">
+                        <img src="assets/img/about/1.jpg" alt="Image Not Found">
+                        <div class="fun-fact text-light animate" data-animate="fadeInDown" data-duration="1s">
+                            <div class="counter">
+                                <div class="timer" data-to="50" data-speed="2000">50</div>
+                                <div class="operator">+</div>
+                            </div>
+                            <span class="medium">Completed Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 pl-80 pl-md-15 pl-xs-15">
+                    <div class="about-style-one">
+                        <h2 class="title mb-30">What is Sabari Studio?</h2>
+                        <p>
+                            Sabari Studios is a one-stop creative studio delivering high-quality Animation, VFX, Motion Capture, Digital Marketing, and 3D Visualization services.
+                        </p>
+                        <p>
+                            We've re-imagined our creative process to provide an innovative and productive experience for brands, businesses, and filmmakers.
+                        </p>
+                        <a href="about-us.html" class="arrow-btn"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- ========= KEY FEATURES SECTION START ========= -->
+	<section class="ftco-section bg-dark">
+		<div class="container">
+			<div class="row mb-5 justify-content-center text-center">
+				<div class="col-md-8 heading-section">
+					<h2 class="mb-3">Key Features of Sabari Studios</h2>
+				</div>
+				<div class="col-md-12 d-flex justify-content-center align-items-end">
+					<ul class="work-category">
+						<li class="active"><a href="#vfx">VFX & CG</a></li>
+						<li><a href="#motion-capture">Motion Capture</a></li>
+						<li><a href="#virtual-production">Virtual Production</a></li>
+						<li><a href="#interior-design">Interior Design</a></li>
+						<li><a href="#digital-marketing">Digital Marketing</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Tab Content Container -->
+			<div class="work-content-wrap">
+				
+				<!-- VFX & CG Content (Visible by default) -->
+                	<div id="vfx" class="work-content">
+					<div class="row align-items-center">
+						<div class="col-md-6 ftco-animate vfx-media">
+							<!-- First Video -->
+							<video id="vfxVideo1" src="assets/img/vfx/vfx.mp4" autoplay muted playsinline class="img-fluid"></video>
+							<!-- Second Video (initially hidden) -->
+							<video id="vfxVideo2" src="assets/img/vfx/vfx1.mp4" muted playsinline class="img-fluid" style="display: none;"></video>
+						</div>
+						<div class="col-md-6 ftco-animate">
+							<div class="text">
+								<h3>VFX (Visual Effects) & CG</h3>
+								<p>VFX (Visual Effects) is the art of blending imagination with reality. It transforms ordinary visuals into extraordinary cinematic experiences. With 3D modeling, animation, lighting, and camera tracking, every scene comes alive. Compositing, roto, and paint give perfection to the final output. From movies to ads, VFX adds impact, emotion, and and storytelling power. Sabari Studios brings world-class VFX solutions that elevate your brand to the next level.</p>
+							</div>
+						</div>
+					</div>
+					<div class="media-gallery-scrollable">
+						<img src="assets/img/vfx/vfx1.webp" alt="VFX Shot 1" class="img-fluid" style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/vfx/vfx2.png" alt="VFX Shot 2" class="img-fluid"  style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/vfx/vfx3.jpg" alt="VFX Shot 3" class="img-fluid"  style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/vfx/vfx4.jpg" alt="VFX Shot 4" class="img-fluid"  style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/vfx/vfx5.png" alt="VFX Shot 5" class="img-fluid"  style=" width: 20%;object-fit: cover;">
+					</div> <!-- End .media-gallery-scrollable -->
+				</div>
+
+				<!-- Motion Capture Content (Hidden by default) -->
+				<div id="motion-capture" class="work-content" style="display: none;">
+					<div class="row align-items-center">
+						<div class="col-md-6 ftco-animate">
+							<img src="assets/img/projects/2.jpg" class="img-fluid" alt="Motion Capture">
+						</div>
+						<div class="col-md-6 ftco-animate">
+							<div class="text">
+								<h3>Motion Capture</h3>
+								<p>Motion Capture (Mocap) technology brings characters to life with realistic, fluid movements. By recording the actions of human actors, we translate every nuance into a digital performance. This process is essential for creating believable animations in films, video games, and virtual reality. At Sabari Studios, we utilize state-of-the-art Mocap systems to deliver high-fidelity character animations that captivate audiences.</p>
+							</div>
+						</div>
+					</div>
+					<div class="media-gallery-scrollable">
+						<img src="assets/img/projects/1.jpg" alt="Mocap 1" class="img-fluid" style=" width: 25%;object-fit: cover;">
+						<img src="assets/img/projects/2.jpg" alt="Mocap 2" class="img-fluid" style=" width: 25%;object-fit: cover;">
+						<img src="assets/img/projects/3.jpg" alt="Mocap 3" class="img-fluid" style=" width: 25%;object-fit: cover;">
+						<img src="assets/img/projects/4.jpg" alt="Mocap 4" class="img-fluid" style=" width: 25%;object-fit: cover;">
+					</div> <!-- End .media-gallery-scrollable -->
+				</div>
+
+				<!-- Virtual Production Content (Hidden by default) -->
+				<div id="virtual-production" class="work-content" style="display: none;">
+					<div class="row align-items-center">
+						<div class="col-md-6 ftco-animate vp-media">
+							<video src="assets/img/vp/virtualproduction.mp4" autoplay muted loop playsinline controls class="img-fluid"></video>
+						</div>
+						<div class="col-md-6 ftco-animate">
+							<div class="text">
+								<h3>Virtual Production</h3>
+								<p>Virtual Production merges the physical and digital worlds in real-time, revolutionizing filmmaking. Using LED walls and game-engine technology, we create dynamic, interactive environments right on set. This allows directors and actors to see visual effects live, enabling greater creative control and efficiency. Sabari Studios is at the forefront of this technology, offering immersive and flexible production solutions.</p>
+						</div>
+						</div>
+					</div>
+					<div class="media-gallery-scrollable">
+						<img src="assets/img/vp/vp1.webp" alt="Virtual Production 1" class="img-fluid" style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/vp/vp2.png" alt="Virtual Production 2" class="img-fluid" style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/vp/vp3.webp" alt="Virtual Production 3" class="img-fluid" style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/vp/vp4.jpeg" alt="Virtual Production 4" class="img-fluid" style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/vp/vp5.jpeg" alt="Virtual Production 5" class="img-fluid" style=" width: 20%;object-fit: cover;">
+					</div> <!-- End .media-gallery-scrollable -->
+				</div>
+
+				<!-- Interior Design Content (Hidden by default) -->
+				<div id="interior-design" class="work-content" style="display: none;">
+					<div class="row align-items-center">
+						<div class="col-md-6 ftco-animate id-media">
+							<video src="assets/img/interiordesign/Interior_House.mp4" autoplay muted loop playsinline controls class="img-fluid"></video>
+						</div>
+						<div class="col-md-6 ftco-animate">
+							<div class="text">
+								<h3>Interior Design & 3D Visualization</h3>
+								<p>We bring architectural and interior designs to life with stunning 3D visualizations. Our team creates photorealistic renderings and virtual tours that allow clients to experience a space before it's built. This service is invaluable for architects, real estate developers, and homeowners, providing a clear vision and facilitating decision-making. We turn concepts into breathtakingly realistic visuals.</p>
+							</div>
+						</div>
+					</div>
+					<div class="media-gallery-scrollable">
+						<img src="assets/img/interiordesign/id1.png" alt="Interior 1" class="img-fluid" style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/interiordesign/id2.jpeg" alt="Interior 2" class="img-fluid" style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/interiordesign/id3.png" alt="Interior 3" class="img-fluid" style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/interiordesign/id4.png" alt="Interior 4" class="img-fluid" style=" width: 20%;object-fit: cover;">
+						<img src="assets/img/interiordesign/id5.png" alt="Interior 5" class="img-fluid" style=" width: 20%;object-fit: cover;">
+					</div> <!-- End .media-gallery-scrollable -->
+				</div>
+				
+				<!-- Digital Marketing Content (Hidden by default) -->
+				<div id="digital-marketing" class="work-content" style="display: none;">
+					<div class="row align-items-center">
+						<div class="col-md-6 ftco-animate dm-media">
+							<video src="assets/img/digitalmarketing/dgv1.mp4" autoplay muted loop playsinline controls class="img-fluid"></video>
+						</div>
+						<div class="col-md-6 ftco-animate">
+							<div class="text">
+								<h3>Digital Marketing</h3>
+								<p>In the digital age, a strong online presence is key. Our digital marketing services are designed to elevate your brand and engage your target audience. From social media management and content creation to SEO and advertising campaigns, we develop data-driven strategies that deliver measurable results. Let Sabari Studios amplify your message and grow your business in the digital landscape.</p>
+							</div>
+						</div>
+					</div>
+					<div class="media-gallery"> <!-- Using grid for this section -->
+						<img src="assets/img/digitalmarketing/dg1.jpeg" alt="Digital Marketing 1" class="img-fluid">
+						<img src="assets/img/digitalmarketing/dg2.jpeg" alt="Digital Marketing 2" class="img-fluid">
+						<img src="assets/img/digitalmarketing/dg3.jpeg" alt="Digital Marketing 3" class="img-fluid">
+						<img src="assets/img/digitalmarketing/dg4.jpeg" alt="Digital Marketing 4" class="img-fluid">
+						<img src="assets/img/digitalmarketing/dg5.jpeg" alt="Digital Marketing 5" class="img-fluid">
+						<img src="assets/img/digitalmarketing/dg6.jpeg" alt="Digital Marketing 6" class="img-fluid">
+						<img src="assets/img/digitalmarketing/dg7.jpeg" alt="Digital Marketing 7" class="img-fluid">
+						<img src="assets/img/digitalmarketing/dg8.jpeg" alt="Digital Marketing 8" class="img-fluid">
+					</div>
+				</div>
+
+			</div> <!-- End work-content-wrap -->
+		</div>
+	</section>
+    <!-- ========= KEY FEATURES SECTION END ========= -->
+
+
+    <!-- Start Fun Factor 
+    ============================================= -->
+    <div class="fun-factor-circle-area default-padding-bottom bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="fun-fact-circle-lists">
+                        <!-- Single item -->
+                        <div class="fun-fact animate" data-animate="fadeInDown">
+                            <div class="counter">
+                                <div class="timer" data-to="50" data-speed="3000">50</div>
+                                <div class="operator">+</div>
+                            </div>
+                            <span class="medium">Projects Delivered</span>
+                        </div>
+                        <!-- End Single item -->
+                        <!-- Single item -->
+                        <div class="fun-fact animate" data-animate="fadeInUp" data-duration="0.5s">
+                            <div class="counter">
+                                <div class="timer" data-to="30" data-speed="3000">30</div>
+                                <div class="operator">+</div>
+                            </div>
+                            <span class="medium">Happy Clients</span>
+                        </div>
+                        <!-- End Single item -->
+                        <!-- Single item -->
+                        <div class="fun-fact animate" data-animate="fadeInDown">
+                            <div class="counter">
+                                <div class="timer" data-to="15" data-speed="3000">15</div>
+                                <div class="operator">+</div>
+                            </div>
+                            <span class="medium">Team Members</span>
+                        </div>
+                        <!-- End Single item -->
+                        <!-- Single item -->
+                        <div class="fun-fact animate" data-animate="fadeInUp" data-duration="0.5s">
+                            <div class="counter">
+                                <div class="timer" data-to="98" data-speed="1000">98</div>
+                                <div class="operator">%</div>
+                            </div>
+                            <span class="medium">Success Rate</span>
+                        </div>
+                        <!-- End Single item -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Fun Factor -->
+
+    <!-- Start Brand Area 
+    ============================================= -->
+    <div class="brand-area relative overflow-hidden bg-gradient text-light">
+        <div class="brand-style-one">
+            <div class="container-fill">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brand-items">
+                            <div class="brand-conetnt">
+                                <div class="item">
+                                    <h2>Animation</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>VFX</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>Marketing</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>Production</h2>
+                                </div>
+                            </div>
+                            <div class="brand-conetnt">
+                                <div class="item">
+                                    <h2>Animation</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>VFX</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>Marketing</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>Production</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Bradn Area -->
+
+    <!-- Start Why Choose Us 
+    ============================================= -->
+    <div class="choose-us-style-one-area default-padding bg-gray">
+        <div class="container">
+            <div class="row align-center">
+                <div class="col-lg-6">
+                    <div class="choose-us-style-one-thumb">
+                        <img src="assets/img/about/2.jpg" alt="Image Not Found">
+                        <a  href="https://www.youtube.com/watch?v=ipUuoMCEbDQ" class="popup-youtube video-play-button">
+                            <i class="fas fa-play"></i>
+                            <div class="effect"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="choose-us-style-one d-flex-between">
+                        <div class="top-info">
+                            <h4 class="sub-title">Our Process</h4>
+                            <h2 class="title">How We Bring Ideas to Life</h2>
+                        </div>
+                        <div class="bottom-info">
+                            <ul class="list-item">
+                                <li>Concept & Pre-Production <strong>01</strong></li>
+                                <li>Asset Creation & Animation <strong>02</strong></li>
+                                <li>VFX & Compositing <strong>03</strong></li>
+                                <li>Final Delivery <strong>04</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Why Choose Us -->
+
+    <!-- Start Testimonial Area 
+    ============================================= -->
+    <div class="testimonial-style-one-area default-padding-top">
+
+        <div class="container">
+            <div class="heading-left">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content-left">
+                            <h4 class="sub-title">Testimonials</h4>
+                            <h2 class="title">What Our Clients Say</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                   
+                <div class="testimonial-one-carousel-box">
+                    <div class="testimonial-style-one-carousel swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Single item -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-style-one">
+                                    <div class="provider">
+                                        <div class="thumb">
+                                            <img src="assets/img/team/1.jpg" alt="Image Not Found">
+                                            <div class="quote">
+                                                <img src="assets/img/shape/quote-big.png" alt="Image Not Found">
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <h4>Filmmaker X</h4>
+                                            <span>Director</span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p>
+                                            Sabari Studios delivered results beyond our expectations. Their VFX work is top-notch!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single item -->
+                            <!-- Single item -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-style-one">
+                                    <div class="provider">
+                                        <div class="thumb">
+                                            <img src="assets/img/team/2.jpg" alt="Image Not Found">
+                                            <div class="quote">
+                                                <img src="assets/img/shape/quote-big.png" alt="Image Not Found">
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <h4>Brand Manager Y</h4>
+                                            <span>Marketing Head</span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p>
+                                            The creative process was seamless and innovative. Highly recommended for any brand.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single item -->
+                        </div>
+    
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="testimonial-one-swiper-nav">
+                        <div class="testimonial-one-pagination"></div>
+                        <div class="testimonial-one-button-prev"></div>
+                        <div class="testimonial-one-button-next"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Testimonial Area -->
+    
+    <!-- Start Slide Section 
+    ============================================= -->
+    <div class="multi-section overflow-hidden bg-dark-secondary text-light">
+        <div class="bg-shape-top">
+            <img src="assets/img/shape/bg-shape-1.png" alt="Image Not Found">
+        </div>
+        
+        <div class="swiper-container multi-section-swiper">
+            <div class="swiper-wrapper">
+
+                <!-- Single Section -->
+                <div class="swiper-slide panel overflow-hidden bg-gradient">
+                    <div class="container overflow-hidden">
+                        <div class="expertise-area text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="site-title">
+                                        <h4 class="sub-title">Our Expertise </h4>
+                                        <h2 class="title">Best Solutions Provider</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="achivement-skill-items">
+                                        <!-- Progress Bar Start -->
+                                        <div class="progress-box">
+                                            <h5>Animation & VFX</h5>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" data-width="92">
+                                                     <span>92%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="progress-box">
+                                            <h5>Virtual Production</h5>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" data-width="85">
+                                                    <span>85%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="progress-box">
+                                            <h5>Motion Capture</h5>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" data-width="88">
+                                                    <span>88%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Progressbar -->
+                                        <div class="progress-box">
+                                            <h5>Digital Marketing</h5>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" data-width="95">
+                                                    <span>95%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Progressbar -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Section -->
+
+                <!-- Single Section -->
+                <div class="swiper-slide panel contact-panel overflow-hidden">
+                    <div class="contact-panel-bg" style="background-image: url(assets/img/about/3.jpg);"></div>
+                    <div class="container overflow-hidden">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h4 class="sub-title">Have a project in mind?</h4>
+                                <h2 class="title">For instant support please reach us</h2>
+                                <a class="btn-round-animation dark mt-40" href="#">Start A Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Section -->
+
+            </div>
+        </div>
+    </div>
+    <!-- End Slide Section -->
+
+    
+
+    <!-- Start Footer 
+    ============================================= -->
+    <footer>
+        <div class="footer-box">
+            <div class="container">
+                <div class="f-items default-padding-bottom pt-70 pt-xs-0">
+                    <div class="row">
+                        <!-- Singel Item -->
+                        <div class="col-lg-4 col-md-6 footer-item mt-50">
+                            <div class="f-item about pr-50 pr-xs-0 pr-md-0">
+                                <!-- Footer Text Logo Start -->
+                                <div class="logo-text-wrapper">
+                                    <span class="logo-main-text">SABARI</span>
+                                    <span class="logo-sub-text">STUDIOS</span>
+                                </div>
+                                <!-- Footer Text Logo End -->
+                                <p>
+                                    Transforming imagination into stunning visuals and impactful digital solutions.
+                                </p>
+                                <div class="footer-social mt-30">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Singel Item -->
+    
+                        <!-- Singel Item -->
+                        <div class="col-lg-4 col-md-6 mt-50 footer-item pl-50 pl-md-15 pl-xs-15">
+                            <div class="f-item link">
+                                <h4 class="widget-title">Navigation</h4>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about-us.html">About</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Work</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Singel Item -->
+    
+                        <!-- Singel Item -->
+                        <div class="col-lg-4 col-md-6 footer-item  mt-50">
+                            <div class="f-item contact">
+                                <h4 class="widget-title">Contact Info</h4>
+                                <ul>
+                                    <li>
+                                        <div class="content">
+                                            <strong>Address:</strong>
+                                            530, Road No. 86, Deen Dayal Nagar, Banjara Hills, Hyderabad, Telangana 500096, India
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content">
+                                            <strong>Email:</strong>
+                                            <a href="mailto:sabaristudios959@gmail.com">sabaristudios959@gmail.com</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content">
+                                            <strong>Phone:</strong>
+                                            <a href="tel:+916300685106">+91 6300685106</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Singel Item -->
+    
+    
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom bg-dark text-light text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>
+                                Copyright &copy; 2025 All rights reserved by Sabari Studios
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Footer Bottom -->
+        </div>
+    </footer>
+    <!-- End Footer -->
+    </div>
+    
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/jquery.scrolla.min.js"></script>
+    <script src="assets/js/ScrollOnReveal.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/validnavs.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- SCRIPT FOR TAB FUNCTIONALITY -->
+    <script>
+        $(document).ready(function(){
+            $('.work-category li a').on('click', function(e){
+                e.preventDefault();
+
+                var target = $(this).attr('href');
+
+                $('.work-category li').removeClass('active');
+                $(this).parent('li').addClass('active');
+
+                $('.work-content').hide();
+                $(target).fadeIn('slow');
+            });
+        });
+    </script>
+
+    <!-- SCRIPT FOR SLIDE SECTION CAROUSEL -->
+    <script>
+        $(document).ready(function() {
+            if (window.innerWidth > 1023) {
+                var multiSectionSwiper = new Swiper('.multi-section-swiper', {
+                    // Optional parameters
+                    loop: true,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
+                    // If we need pagination
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                });
+            }
+        });
+    </script>
+
+    <!-- SCRIPT FOR BANNER VIDEO SLIDER -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const videos = document.querySelectorAll('#banner-video-slider .banner-video');
+            if (videos.length > 1) {
+                let currentVideoIndex = 0;
+
+                function switchVideo() {
+                    // Remove 'active' class from current video
+                    videos[currentVideoIndex].classList.remove('active');
+
+                    // Increment index, looping back to 0
+                    currentVideoIndex = (currentVideoIndex + 1) % videos.length;
+
+                    // Add 'active' class to the new video
+                    videos[currentVideoIndex].classList.add('active');
+                    
+                    // Optional: Play the new video from the start
+                    videos[currentVideoIndex].currentTime = 0;
+                    videos[currentVideoIndex].play().catch(error => {
+                        // Autoplay was prevented, which is common in some browsers.
+                        // The videos are muted, so it should usually work.
+                        console.log("Autoplay was prevented for the next video.");
+                    });
+                }
+
+                // Switch video every 5 seconds (5000 milliseconds)
+                setInterval(switchVideo, 5000);
+            }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const vfxVideo1 = document.getElementById('vfxVideo1');
+            const vfxVideo2 = document.getElementById('vfxVideo2');
+
+            // When the first video ends, play the second one
+            vfxVideo1.addEventListener('ended', function() {
+                vfxVideo1.style.display = 'none';
+                vfxVideo2.style.display = 'block';
+                vfxVideo2.play();
+            });
+
+            // When the second video ends, play the first one (creating a loop)
+            vfxVideo2.addEventListener('ended', function() {
+                vfxVideo2.style.display = 'none';
+                vfxVideo1.style.display = 'block';
+                vfxVideo1.play();
+            });
+        });
+
+    </script>
+
+</body>
+
+<!-- Mirrored from validthemes.net/site-template/avrix/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Sep 2025 07:19:04 GMT -->
+</html>
